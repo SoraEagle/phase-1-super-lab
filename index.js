@@ -15,7 +15,7 @@ class Deciduous extends Tree{
     static definition(){
         return(
             super.definition() + " Deciduous trees shed their leaves annually."
-        );
+        ); //Modifies parent class's definition() to create one unique to this child class.
     }
 }
 
@@ -27,6 +27,6 @@ class Evergreen extends Tree{
     static definition(){
         return(
             super.definition() + " Evergreens keep their leaves all year round."
-        )
+        ); //Modifies parent class's definition() to create one unique to this child class.
     }
 }
